@@ -23,10 +23,12 @@ show_sidebar: false
 ---
 
 <!-- # Careers: -->
+<div class="columns is-mobile is-centered">
 <div class="buttons">
    <button class="button is-primary is-rounded is-medium is-hovered is-static">
       CAREERS
    </button>
+</div>
 </div>
 
 #### . ![career](/img/career.png)      [2019-Now] Machine Learning Specialist - SceneSeer/Devpanel
@@ -43,11 +45,12 @@ show_sidebar: false
 ---
 
 <!-- # Education: -->
-
+<div class="columns is-mobile is-centered">
 <div class="buttons">
    <button class="button is-primary is-rounded is-medium is-hovered is-static">
       EDUCATION
    </button>
+</div>
 </div>
 
 #### B.Eng of Mechatronics, Ho Chi Minh University of Technology and Education
@@ -56,10 +59,12 @@ show_sidebar: false
 
 ---
 <!-- # Certifications: -->
+<div class="columns is-mobile is-centered">
 <div class="buttons">
    <button class="button is-primary is-rounded is-medium is-hovered is-static">
       CERTIFICATION
    </button>
+</div>
 </div>
 
 #### AWS Machine Learning Certified - Specialty ([here](https://www.youracclaim.com/badges/df01edc6-d23c-4626-acfa-37fb96fec3f4/linked_in_profile)) 
@@ -69,10 +74,12 @@ show_sidebar: false
 ---
 
 <!-- # Publications: -->
+<div class="columns is-mobile is-centered">
 <div class="buttons">
    <button class="button is-primary is-rounded is-medium is-hovered is-static">
       PUBLICATION
    </button>
+</div>
 </div>
 
 
@@ -81,16 +88,19 @@ show_sidebar: false
 ---
 
 <!-- # Tech skills: -->
+<div class="columns is-mobile is-centered">
 <div class="buttons">
    <button class="button is-primary is-rounded is-medium is-hovered is-static">
       TECH SKILL
    </button>
+</div>
 </div>
 
 ![python](/img/python.png)   ![torch](/img/torch.png)   ![docker](/img/docker.png)   ![bash](/img/bash.png)   ![aws](/img/aws-logo.png)  ![git](/img/git.jpg) 
 
 ![opencv](/img/opencv.png)   ![redis](/img/redis.jpg)   ![sql](/img/sql.png)   ![ubuntu](/img/ubuntu.png)   ![fastapi](/img/fastapi.png) 
 
+---
 
 <div class="columns is-mobile is-centered">
 <div class="buttons">
