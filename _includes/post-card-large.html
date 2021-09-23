@@ -1,23 +1,27 @@
-<div class="card">
-    <div class="card-content">
-        <div class="content">
-            <a class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
-        </div>
-        <div class="content is-small"><em>Published: {{ post.date | date: "%b %-d, %Y" }}</em></div>
-        <div class="tags">
-            {% for tag in post.tags %}
-              {% include tag.html tag=tag %}
-            {% endfor %}
-        </div>
-        <div class="block">
+<div class="box">
+    <article class="media">
+        <figure class="media-left">
+            <p class="image is-200x200">
+              <img src="{{ post.image }}">
+            </p>
+        </figure>        
+        <div class="media-content">
+            <div class="content">
+                <a class="title is-4" href="{{ site.baseurl }}{{ post.url }}">{{ post.title}}</a>
+            </div>
             <div class="content">
                 {% if post.summary %}
                     {{ post.summary | markdownify }}
-                    <a href="{{ site.baseurl }}{{ post.url }}"><em>Read more</em></a>
                 {% else %}
                     <p>{{ post.excerpt }}</p>
                 {% endif %}
             </div>
+            <div class="tags">
+                {% for tag in post.tags %}
+                    {% include tag.html tag=tag %}
+                {% endfor %}
+              </div>
+            <div class="content is-small"><em>Published: {{ post.date | date: "%b %-d, %Y" }}</em></div>
         </div>
-    </div>
+    </article>
 </div>

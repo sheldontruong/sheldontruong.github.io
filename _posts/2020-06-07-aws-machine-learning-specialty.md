@@ -1,7 +1,7 @@
 ---
 layout: post
 date: 2020-06-07 09:00:07
-image: /img/AWS-cert-hero.png
+image: /img/AWS-cert-square.png
 tags: AWS certification sharing
 comments: true
 toc: true
@@ -9,9 +9,7 @@ show_sidebar: true
 title: Amazon Web Services Machine Learning - Specialty Experience
 description: Amazon Web Services Machine Learning - Specialty Experience
 summary: |-
-    Fee: 300$
-
-    The total time of the test is 3,5 hours, answer all 65 questions at the first time, flag unsure answers, then return to check carefully all reliable questions (to make sure that you do not misread or wrongly choose), then find the flag answer to carefully read and infer again.
+    **300$** - The total time of the test is 3,5 hours, answer all 65 questions at the first time, flag unsure answers, then return to check carefully all reliable questions, then find the flag answer to carefully read and infer again.
 ---
 
 ---
