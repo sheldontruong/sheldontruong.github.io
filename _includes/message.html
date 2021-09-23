@@ -1,4 +1,9 @@
 <article class="message {{ include.type }}">
+    {% if include.header %}
+        <div class="message-header">
+            <p>{{ include.header }}</p>
+        </div>
+    {% endif %}
     <div class="message-body">
         <p>{{ include.content }}</p>
     </div>

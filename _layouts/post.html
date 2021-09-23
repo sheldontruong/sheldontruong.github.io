@@ -2,11 +2,6 @@
 layout: default
 ---
 
-{% if page.toc %}
-    {% assign contentsTitle = page.toc_title | default: 'Contents' %}
-    {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
-{% endif %}
-
 <div class="content has-text-black-bis"><p>Published: {{ page.date | date: "%b %-d, %Y" }} by {{ page.author }}</p></div>
 <div class="level">
   <div class="level-left">
@@ -22,7 +17,13 @@ layout: default
     </div>
   </div>
 </div>
-<div class="content has-text-black-bis is-family-secondary">
+
+{% if page.toc %}
+    {% assign contentsTitle = page.toc_title | default: 'Contents' %}
+    {% include toc.html html=content class='menu-list' h_min=2 h_max=3 contents_title=contentsTitle %}
+{% endif %}
+
+<div class="content has-text-black-bis is-family-secondary has-text-weight-light">
     {{ content }}
 </div>
 
