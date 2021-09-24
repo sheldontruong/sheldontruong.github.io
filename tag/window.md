@@ -1,7 +1,7 @@
 ---
 layout: tagpage
-title: "Tag: realtime"
-tag: realtime
+title: "Tag: window"
+tag: window
 robots: noindex
 hide_hero: true
 ---
