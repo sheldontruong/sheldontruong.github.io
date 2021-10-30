@@ -35,7 +35,10 @@ show_sidebar: false
 </div>
 </div>
 
-#### . ![career](/img/career.png)      [2019-Now] Machine Learning Specialist - SceneSeer/Devpanel
+#### . ![career](/img/career.png)      [2021-Now] Core Engineer, AI Engineer - ScaleTorch
+
+* ScaleTorch provides a training, serving platform for Pytorch (sooner support Tensorflow and Keras) at scale accelerated by GPU with much lower cost than AWS, GCP, etc.
+#### . ![career](/img/career.png)      [2019-2021] Machine Learning Specialist - SceneSeer/Devpanel
 
 * MLOps with AWS, Docker
 * Develop various algorithms: Object detection, Image classification, Keypoints estimation, Depth estimation, OCR, ChatBot, etc.
