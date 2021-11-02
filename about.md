@@ -35,9 +35,6 @@ show_sidebar: false
 </div>
 </div>
 
-#### ![career](/img/career.png)      [2021-Now] Core Engineer, AI Engineer - ScaleTorch
-
-* ScaleTorch provides a training, serving platform for Pytorch, Tensorflow, Keras at scale accelerated by GPU with much lower cost than AWS, GCP, etc. Users just need to care about their code rather than infrastructure.
 
 #### ![career](/img/career.png)      [2019-2021] Machine Learning Specialist - SceneSeer/Devpanel
 
